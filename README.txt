@@ -1,4 +1,8 @@
 # AW-FirstBox-Patch
+If you want to use the first box patch you have to download the s1x files and put them into a folder:
+D:\Games\Call of Duty Advanced Warfare\s1x\scripts
+
+Weapon List:
 overrideBoxWeapons( "iw5_rw1zm", "npc_rw1_main_base_static_holo", &"ZOMBIES_RW1", "none", "none", "none" ); //rw1
 overrideBoxWeapons( "iw5_vbrzm", "npc_vbr_base_static_holo", &"ZOMBIES_VBR", "none", "none", "none" ); //pdw
 overrideBoxWeapons( "iw5_gm6zm", "npc_gm6_base_static_holo", &"ZOMBIES_GM6", "gm6scope", "none", "none" ); //lynx
