@@ -2,6 +2,11 @@
 If you want to use the first box patch you have to download the s1x files and put them into a folder:
 D:\Games\Call of Duty Advanced Warfare\s1x\scripts
 
+There is currently no round gap at wich point the patch stops working, we will be working on this in the future.
+
+Credit:
+oJumpy
+
 Weapon List:
 ( "iw5_rw1zm", "npc_rw1_main_base_static_holo", &"ZOMBIES_RW1", "none", "none", "none" ); //rw1
 ( "iw5_vbrzm", "npc_vbr_base_static_holo", &"ZOMBIES_VBR", "none", "none", "none" ); //pdw
