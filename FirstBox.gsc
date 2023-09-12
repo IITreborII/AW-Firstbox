@@ -3,8 +3,6 @@ main()
     level waittill( "zombie_wave_ended" );
     level.magicboxweapons = [];
 
-    if(level.wavecounter < 5)
-    {
         var_1 = maps\mp\_utility::getmapname();
         switch ( var_1 )
         {
@@ -34,7 +32,6 @@ main()
                 return;
         }
     }
-}
 
 overrideBoxWeapons( var_0, var_1, var_2, var_3, var_4, var_5, var_6, var_7 )
 {
