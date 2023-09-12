@@ -1,4 +1,4 @@
-main()
+init()
 {
     level waittill( "zombie_wave_ended" );
     level.magicboxweapons = [];
