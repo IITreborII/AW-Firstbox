@@ -6,7 +6,7 @@
 
 - Theres no weapon order yet
 - Theres no round cap
-- Problem with getting secondary eqiupment from
+- Problem with getting dublicated secondary eqiupment from Box 
 
 # How to change weapons inside of the Box
 
