@@ -6,9 +6,6 @@
 - Gives all Weapons you want
 - Stops after Round 20
 
-# Issues
-- There Might be an issue wich greatly impacts the chances of getting a specific weapon past Round 20 (This might or might not be true) 
-
 # How to use the Patch
 1. Download S1x Files (Join Discord and Find Download in #ressource - https://discord.com/invite/TesFghu28v)
 2. Put S1X Files inside Gamefolder
