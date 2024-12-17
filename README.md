@@ -2,11 +2,12 @@
 
 ### Changes all weapons inside the Box to what ever you want
 
-# Known issues
+# About The Patch
+- Gives all Weapons you want
+- Stops after Round 20
 
-- Theres no weapon order yet
-- Theres no round cap
-- Problem with getting dublicated secondary eqiupment from Box 
+# Issues
+- There Might be an issue wich greatly impacts the chances of getting a specific weapon past Round 20 (This might or might not be true) 
 
 # How to change weapons inside of the Box
 
