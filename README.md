@@ -1,4 +1,4 @@
-# AW Fistbox
+# AW Firstbox
 
 ### Changes all weapons inside the Box to what ever you want
 
@@ -12,7 +12,7 @@
 3. Open the "S1x" Folder and inside create a Folder called "scripts"
 4. Drag and Drop the patch inside "scripts" Folder.
 
-# How to change weapons inside of the Box
+# How to change weapons inside the Box
 
 1. Open File weapon_list.gsc
 2. Copy the wanted Weapon code from the list.
