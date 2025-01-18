@@ -7,7 +7,7 @@ firstbox()
 {
     level endon( "game_ended" );
     level waittill( "zombie_wave_started" );
-    iPrintLn( "^:Firstbox ^:Patch" );
+    iPrintLn( "Firstbox Patch" );
     level.magicboxweapons = [];
     
     var_1 = maps\mp\_utility::getmapname();
@@ -19,19 +19,19 @@ firstbox()
         addmagicboxweapon( "distraction_drone_zombie", "dlc_distraction_drone_01_holo", &"ZOMBIES_DISTRACTION_DRONE", "none", "none", "none", 2 );
         break;
 
-    case "mp_zombie_brg":/*Infection - Change Weapons here*/
+    case "mp_zombie_brg":/*Infection - Change Weapons here**/
         addmagicboxweapon( "iw5_exocrossbowzm", "npc_crossbow_base_static_holo", &"ZOMBIES_CROSSBOW", "none", "none", "none" );
         addmagicboxweapon( "iw5_mahemzm", "npc_mahem_base_holo", &"ZOMBIES_MAHEM", "none", "none", "none" );
         addmagicboxweapon( "distraction_drone_zombie", "dlc_distraction_drone_01_holo", &"ZOMBIES_DISTRACTION_DRONE", "none", "none", "none", 2 );       
         break;
 
-    case "mp_zombie_ark":/*Carrier - Change Weapons here*/
+    case "mp_zombie_ark":/*Carrier - Change Weapons here**/
         addmagicboxweapon( "iw5_linegunzm", "npc_zom_line_gun_holo", &"ZOMBIE_WEAPON_LINEGUN_PICKUP", "none", "none", "none", 2 );
         addmagicboxweapon( "iw5_fusionzm", "npc_fusion_shotgun_base_holo", &"ZOMBIES_FUSION_RIFLE", "none", "none", "none", 2 );
         addmagicboxweapon( "distraction_drone_zombie", "dlc_distraction_drone_01_holo", &"ZOMBIES_DISTRACTION_DRONE", "none", "none", "none", 2 );
         break;
 
-    case "mp_zombie_h2o":/*Descent - Change Weapons here*/          
+    case "mp_zombie_h2o":/*Descent - Change Weapons here**/          
         addmagicboxweapon( "iw5_tridentzm", "npc_zom_trident_base_holo", &"ZOMBIE_WEAPON_TRIDENT_PICKUP", "none", "none", "none", 2 ); 
         addmagicboxweapon( "iw5_dlcgun4zm", "npc_blunderbuss_base_holo", &"ZOMBIE_WEAPONDLC4_GUN", "none", "none", "none", 2 ); 
         addmagicboxweapon( "distraction_drone_zombie", "dlc_distraction_drone_01_holo", &"ZOMBIES_DISTRACTION_DRONE", "none", "none", "none", 2 );
@@ -117,6 +117,7 @@ firstbox()
         addmagicboxweapon( "repulsor_zombie", "dlc3_repulsor_device_01_holo", &"ZOMBIE_DLC3_REPULSOR", "none", "none", "none", 2);
         addmagicboxweapon( "iw5_dlcgun3zm", "npc_m1_irons_base_static_holo", &"ZOMBIE_WEAPONDLC3_GUN", "none", "none", "none" );
         addmagicboxweapon( "iw5_dlcgun2zm", "npc_lmg_shotgun_base_static_holo", &"ZOMBIE_WEAPONDLC2_GUN", "none", "none", "none" );
+        addmagicboxweapon( "iw5_linegunzm", "npc_zom_line_gun_holo", &"ZOMBIE_WEAPON_LINEGUN_PICKUP", "none", "none", "none", 2 );
             break;
 
     case "mp_zombie_h2o":
@@ -146,7 +147,7 @@ firstbox()
         addmagicboxweapon( "iw5_dlcgun2zm", "npc_lmg_shotgun_base_static_holo", &"ZOMBIE_WEAPONDLC2_GUN", "none", "none", "none" );
             break;
         }
-        iPrintLn( "^:Firstbox ^:Off" );
+        iPrintLn( "Firstbox Off" );
         break;
     }
 }
@@ -173,3 +174,5 @@ addmagicboxweapon( var_0, var_1, var_2, var_3, var_4, var_5, var_6, var_7 )
     if ( !maps\mp\zombies\_util::iszombieequipment( level.magicboxweapons[var_8]["baseName"] ) )
         level.magicboxweapons[var_8]["fullName"] = maps\mp\gametypes\_class::buildweaponname( var_0, var_3, var_4, var_5, 0, 0 );
 }
+
+
