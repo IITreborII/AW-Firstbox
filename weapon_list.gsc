@@ -29,8 +29,6 @@ All Maps:
 "iw5_sn6zm", "npc_sn6_base_black_static_holo", &"ZOMBIES_SN6", "none", "none", "none" 
 [Sac3]:
 "iw5_sac3zm", "npc_sac3_base_static_holo", &"ZOMBIES_SAC3", "none", "none", "none" 
-[Cel3]:
-"iw5_fusionzm", "npc_fusion_shotgun_base_holo", &"ZOMBIES_FUSION_RIFLE", "none", "none", "none", 2 
 [Crossbow]:
 "iw5_exocrossbowzm", "npc_crossbow_base_static_holo", &"ZOMBIES_CROSSBOW", "none", "none", "none"  
 [Mahemzm]:
@@ -51,6 +49,10 @@ Carrier & Descent only:
 ██  █  ██ ██    ██ ██ ██  ██ ██   ██ █████   ██████      ██  █  ██ █████   ███████ ██████  ██    ██ ██ ██  ██ ███████ 
 ██ ███ ██ ██    ██ ██  ██ ██ ██   ██ ██      ██   ██     ██ ███ ██ ██      ██   ██ ██      ██    ██ ██  ██ ██      ██ 
  ███ ███   ██████  ██   ████ ██████  ███████ ██   ██      ███ ███  ███████ ██   ██ ██       ██████  ██   ████ ███████                                                                                                                                                                                                                                  
+
+Global:
+[Cel3]:
+"iw5_fusionzm", "npc_fusion_shotgun_base_holo", &"ZOMBIES_FUSION_RIFLE", "none", "none", "none", 2 
 
 Infection:
 [Magnetron]:
