@@ -5,6 +5,7 @@
 # About The Patch
 - Gives all Weapons you want
 - Stops after Round 20
+- Gives Weapon in an Order (Work in Progress)
 
 # How to use the Patch
 1. Download S1x Files (https://mega.nz/folder/oLAViLiZ#3xUbLir3T9AdB51FqdhPlQ)
@@ -14,6 +15,6 @@
 
 # How to change weapons inside the Box
 
-Change weaponname (check the mapweaponnamestonumbers function, it includs all Weapon Names)
+Change weapon name (check the mapweaponnamestonumbers function, it includs all Weapon Names)
 
 
