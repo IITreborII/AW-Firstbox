@@ -14,9 +14,6 @@
 
 # How to change weapons inside the Box
 
-1. Open File weapon_list.gsc
-2. Copy the wanted Weapon code from the list.
-3. Open the file firstbox.gsc
-4. Put the weapon code inside addmagicboxweapon( //weapon code here );
+Change weaponname (check the mapweaponnamestonumbers function, it includs all Weapon Names)
 
 
