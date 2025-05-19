@@ -13,8 +13,5 @@
 3. Open the "S1x" Folder and inside create a Folder called "scripts"
 4. Drag and Drop the patch inside "scripts" Folder.
 
-# How to change weapons inside the Box
-
-Change weapon name (check the mapweaponnamestonumbers function, it includs all Weapon Names)
 
 
