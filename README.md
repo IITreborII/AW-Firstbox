@@ -1,7 +1,3 @@
-# AW Firstbox
-
-### Changes all weapons inside the Box to what ever you want
-
 # About The Patch
 - Gives all Weapons you want
 - Stops after Round 20
