@@ -155,5 +155,4 @@ returnBox()
         maps\mp\zombies\_wall_buys::addmagicboxweapon( "iw5_dlcgun2zm", "npc_lmg_shotgun_base_static_holo", &"ZOMBIE_WEAPONDLC2_GUN", "none", "none", "none" );
             break;
         }
-    iPrintLn( "Firstbox Off" );
 }
