@@ -1,6 +1,6 @@
 # About The Patch
 - Gives all Weapons you want
-- Stops after Round 20
+- Stops after Round 15
 - Gives Weapon in an Order (Work in Progress)
 
 # How to use the Patch
