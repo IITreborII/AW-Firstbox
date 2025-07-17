@@ -10,7 +10,7 @@
 
 # How to change firstbox Weapons
 1. Open Weapon List
-2. Copy weapon code - ( "iw5_exocrossbowzm", "npc_crossbow_base_static_holo", &"ZOMBIES_CROSSBOW", "none", "none", "none" ) //Crossbow
+2. Copy weapon code - ( "iw5_exocrossbowzm", "npc_crossbow_base_static_holo", &"ZOMBIES_CROSSBOW", "none", "none", "none" )
 3. Replace the firstbox.gsc weapon code with yours
 4. save File - done.
 
